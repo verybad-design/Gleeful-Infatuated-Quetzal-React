@@ -8,16 +8,19 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Gleeful Infatuated Quetzal</title>
-        <meta property="og:title" content="Gleeful Infatuated Quetzal" />
+        <title>verybad-design</title>
+        <meta property="og:title" content="verybad-design" />
       </Helmet>
-      <div className="home-hero">
-        <img
-          alt="image"
-          src="/external/vb_orange_profile.svg"
-          className="home-image"
-        />
-      </div>
+      <a href="https://instagram.com/verybad.design" className="home-link">
+        <div className="home-hero">
+          <img
+            alt="image"
+            src="/external/vb_orange_profile.svg"
+            loading="eager"
+            className="home-image"
+          />
+        </div>
+      </a>
     </div>
   )
 }

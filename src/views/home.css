@@ -8,6 +8,9 @@
   justify-content: flex-start;
   background-color: #fdf3e8;
 }
+.home-link {
+  display: contents;
+}
 .home-hero {
   width: 100%;
   display: flex;
@@ -16,10 +19,12 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-decoration: none;
 }
 .home-image {
   width: 45rem;
   height: 273px;
+  pointer-events: none;
 }
 @media(max-width: 991px) {
   .home-hero {
